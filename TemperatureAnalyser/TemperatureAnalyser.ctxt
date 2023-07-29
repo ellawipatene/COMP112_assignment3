@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=TemperatureAnalyser
+comment0.text=\ The\ program\ contains\ several\ methods\ for\ analysing\ the\ readings\ of\ the\ temperature\ levels\ over\ the\ course\ of\ a\ day.\n\ \ There\ are\ several\ things\ about\ the\ temperature\ levels\ that\ a\ user\ may\ be\ interested\ in\:\ \n\ \ \ \ The\ average\ temperature\ level.\n\ \ \ \ How\ the\ temperatures\ rose\ and\ fell\ over\ the\ day.\n\ \ \ \ The\ maximum\ and\ the\ minimum\ temperature\ levels\ during\ the\ day.\n
+comment1.params=
+comment1.target=void\ analyse()
+comment1.text=\ analyse\ reads\ a\ sequence\ of\ temperature\ levels\ from\ the\ user\ and\ prints\ out\n\ \ \ \ average,\ maximum,\ and\ minimum\ level\ and\ plots\ all\ the\ levels\n\ \ \ \ by\ calling\ appropriate\ methods\n
+comment2.params=listOfNumbers
+comment2.target=void\ printAverage(java.util.ArrayList)
+comment2.text=\ Print\ the\ average\ level\n\ \ \ -\ There\ is\ guaranteed\ to\ be\ at\ least\ one\ level,\n\ \ \ -\ The\ method\ will\ need\ a\ variable\ to\ keep\ track\ of\ the\ sum,\ which\ \n\ \ \ \ \ needs\ to\ be\ initialised\ to\ an\ appropiate\ value.\n\ \ CORE\n
+comment3.params=listOfNumbers\ maxValue\ minValue
+comment3.target=void\ plotLevels(java.util.ArrayList,\ double,\ double)
+comment3.text=\n\ Plot\ a\ bar\ graph\ of\ the\ sequence\ of\ levels,\n\ using\ narrow\ rectangles\ whose\ heights\ are\ equal\ to\ the\ level.\n\ [Core]\n\ \ \ -\ Plot\ the\ bars.\n\ [Completion]\n\ \ \ -\ Draws\ a\ horizontal\ line\ for\ the\ x-axis\ (or\ baseline)\ without\ any\ labels.\n\ \ \ -\ Any\ level\ greater\ than\ 400\ should\ be\ plotted\ as\ if\ it\ were\ just\ 400,\ putting\ an\n\ \ \ \ \ \ \ \ \ asterisk\ ("*")\ above\ it\ to\ show\ that\ it\ has\ been\ cut\ off.\n\ [Challenge\:]\ \n\ \ \ -\ The\ graph\ should\ also\ have\ labels\ on\ the\ axes,\ roughly\ every\ 50\ pixels.\n\ \ \ -\ The\ graph\ should\ also\ draw\ negative\ temperature\ levels\ correctly.\n\ \ \ -\ Scale\ the\ y-axis\ and\ the\ bars\ so\ that\ the\ largest\ numbers\ and\ the\ smallest\ just\ fit\ on\ the\ graph.\n\ \ \ \ \ The\ numbers\ on\ the\ y\ axis\ should\ reflect\ the\ scaling.\n\ \ \ -\ Scale\ the\ x-axis\ so\ that\ all\ the\ bars\ fit\ in\ the\ window.\n
+comment4.params=listOfNumbers
+comment4.target=double\ maximumOfList(java.util.ArrayList)
+comment4.text=\ Find\ and\ return\ the\ maximum\ level\ in\ the\ list\n\ \ \ -\ There\ is\ guaranteed\ to\ be\ at\ least\ one\ level,\n\ \ \ -\ The\ method\ will\ need\ a\ variable\ to\ keep\ track\ of\ the\ maximum,\ which\n\ \ \ \ \ needs\ to\ be\ initialised\ to\ an\ appropriate\ value.\n\ \ COMPLETION\n
+comment5.params=listOfNumbers
+comment5.target=double\ minimumOfList(java.util.ArrayList)
+comment5.text=\ Find\ and\ return\ the\ minimum\ level\ in\ the\ list\n\ \ \ -\ There\ is\ guaranteed\ to\ be\ at\ least\ one\ level,\n\ \ \ -\ The\ method\ will\ need\ a\ variable\ to\ keep\ track\ of\ the\ minimum,\ which\n\ \ \ \ \ needs\ to\ be\ initialised\ to\ an\ appropriate\ value.\n\ \ COMPLETION\n
+comment6.params=listOfNumbers
+comment6.target=double\ medianOfList(java.util.ArrayList)
+comment7.params=
+comment7.target=void\ setupGUI()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9
